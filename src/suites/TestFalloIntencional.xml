@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+    <test name="TestChrome">
+
+        <parameter name="Browser" value="Chrome"></parameter>
+
+        <classes>
+            <class name="tests.TestFalloIntencional" />
+        </classes>
+    </test>
+
+    <test name="TestFirefox">
+
+        <parameter name="Browser" value="Firefox"></parameter>
+
+        <classes>
+            <class name="tests.TestFalloIntencional" />
+        </classes>
+    </test>
+</suite>
